@@ -1,0 +1,108 @@
+/* geral + reset */
+
+body,
+h1,
+p,
+span {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #0f1722;
+}
+h1 {
+	text-align: center;
+	margin: 30px 0px;
+	color: white;
+}
+
+/* Calculadora */
+
+#calculator {
+	background-color: #1d293a;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+#screen-container {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	padding: 10px;
+	width: 258px;
+	height: 70px;
+	border: 1px solid #354357;
+	text-align: right;
+	box-sizing: border-box;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#upper-number,
+#result-number {
+	float: right;
+	color: #fff;
+}
+
+#result-number {
+	margin-top: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	clear: both;
+}
+
+.btn-container {
+	position: relative;
+	margin: 0 auto;
+	width: 300px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.btn {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	line-height: 50px;
+	text-align: center;
+	margin: 0 7.5px;
+	border: none;
+	border-radius: 33%;
+	background-color: #354357;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: orange;
+}
+
+#ac-btn {
+	margin-left: -200px;
+}
+
+#division-btn {
+	position: absolute;
+	right: 14px;
+}
+
+#zero-btn,
+#equals-btn {
+	width: 120px;
+}
+
+#ac-btn,
+#division-btn,
+#multiplication-btn,
+#minus-btn,
+#plus-btn,
+#zero-btn,
+#equals-btn {
+	font-size: 20px;
+	font-weight: 300;
+}
